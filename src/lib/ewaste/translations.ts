@@ -1,0 +1,228 @@
+// CircuitSort — i18n translations (English + Hindi)
+
+export type Language = 'en' | 'hi';
+
+export const translations = {
+  en: {
+    // Header / nav
+    brandName: 'CircuitSort',
+    tagline: 'AI-Powered E-Waste Sorting & Recycling',
+    nav_sort: 'Sort',
+    nav_inventory: 'Inventory',
+    nav_account: 'Account',
+    theme_toggle: 'Toggle theme',
+    language_toggle: 'हिन्दी',
+
+    // Sort tab
+    sort_title: 'Sort Station',
+    sort_subtitle: 'Upload an image or stream live video — the AI identifies components in real time.',
+    mode_upload: 'Upload Image',
+    mode_camera: 'Live Webcam',
+    upload_prompt: 'Click to browse or drop an image here',
+    upload_hint: 'Supports PNG, JPG, JPEG, WebP — circuit boards, batteries, gadgets',
+    upload_dragging: 'Drop image to analyze',
+    btn_analyze: 'Analyze Image',
+    btn_analyzing: 'Analyzing...',
+    analyzing_text: 'Running VLM inference on image...',
+    no_ewaste_title: 'No e-waste detected',
+    no_ewaste_desc: 'Try uploading an image of circuit boards, batteries, or gadgets.',
+    camera_offline_title: 'Camera feed offline',
+    camera_offline_desc: 'Click below to grant camera access and start live sorting',
+    btn_start_stream: 'Start Live Stream',
+    btn_stop_stream: 'Stop Live Stream',
+    stream_active: 'Live stream active',
+    stream_idle: 'Stream idle',
+    stream_started: 'Live stream started',
+    stream_stopped: 'Live stream stopped',
+    camera_failed: 'Webcam access failed',
+    capturing_every: 'Capturing frames every',
+    active_detections: 'active detections',
+    remove_image: 'Remove image',
+
+    // Inventory tab
+    inventory_title: 'Inventory Logistics',
+    inventory_subtitle: 'Real-time tracking of every component detected and routed.',
+    total_parts_tracked: 'Total Parts Tracked',
+    unique_categories: 'unique categories',
+    component_registry: 'Component Registry',
+    no_items_evaluated: 'No items evaluated yet',
+    avg_conf: 'avg conf',
+    bin_distribution: 'Sorting Bin Distribution',
+    sort_event_log: 'Sort Event Log',
+    clear: 'Clear',
+    no_sort_events: 'No sort events yet',
+    inventory_cleared: 'Inventory cleared',
+
+    // Robotic arm
+    robotic_sorter: 'Robotic Sorter Control',
+    sorting: 'SORTING',
+    idle: 'IDLE',
+    servo_angle: 'Servo Angle',
+    queue: 'Queue',
+    current_bin: 'Current Bin',
+    inference: 'Inference',
+    bin_routing: 'Bin Routing',
+    routing: 'Routing',
+
+    // Material composition
+    material_composition: 'Estimated Material Composition',
+
+    // Account tab
+    account_title: 'Account',
+    account_subtitle: 'Sign in to save your sort history across sessions.',
+    signed_in_as: 'Signed in as',
+    welcome_back: 'Welcome back',
+    logout: 'Sign out',
+    login_title: 'Sign in to CircuitSort',
+    login_subtitle: 'Use the demo credentials below to explore the dashboard.',
+    email: 'Email',
+    password: 'Password',
+    btn_sign_in: 'Sign in',
+    signing_in: 'Signing in...',
+    demo_credentials: 'Demo Credentials',
+    demo_email: 'demo@circuitsort.app',
+    demo_password: 'circuitsort1234',
+    login_success: 'Signed in successfully',
+    login_error: 'Invalid email or password',
+    logout_success: 'Signed out',
+    copy_to_clipboard: 'Click to copy',
+    copied: 'Copied!',
+    not_signed_in_desc: 'You are viewing the demo in guest mode. Sign in to save sort history.',
+    features_coming_soon: 'Premium Features',
+    feature_history: 'Persistent sort history',
+    feature_analytics: 'Advanced analytics dashboard',
+    feature_export: 'CSV / Excel exports',
+    feature_multiuser: 'Multi-user team support',
+    coming_soon_badge: 'Coming soon',
+
+    // Bins
+    bin_1: 'Bin 1 — Capacitors',
+    bin_2: 'Bin 2 — Resistors / Connectors',
+    bin_3: 'Bin 3 — PCBs / Transformers',
+    bin_4: 'Bin 4 — Batteries (Hazmat)',
+    bin_5: 'Bin 5 — Bulk Gadgets / Cables',
+    bin_6: 'Bin 6 — ICs / Heat Sinks',
+
+    // Footer
+    footer_session: 'items sorted this session',
+    footer_upload_mode: 'Upload mode',
+    footer_stream_active: 'Live stream active',
+    footer_webcam_idle: 'Webcam idle',
+    footer_avg_confidence: 'avg confidence',
+    footer_built_by: 'Built as a portfolio project',
+  },
+  hi: {
+    // Header / nav
+    brandName: 'सर्किटसॉर्ट',
+    tagline: 'एआई संचालित ई-वेस्ट छंटाई और रीसाइक्लिंग',
+    nav_sort: 'छंटाई',
+    nav_inventory: 'इन्वेंटरी',
+    nav_account: 'खाता',
+    theme_toggle: 'थीम बदलें',
+    language_toggle: 'English',
+
+    // Sort tab
+    sort_title: 'छंटाई स्टेशन',
+    sort_subtitle: 'एक छवि अपलोड करें या लाइव वीडियो स्ट्रीम करें — एआई वास्तविक समय में घटकों की पहचान करता है।',
+    mode_upload: 'छवि अपलोड करें',
+    mode_camera: 'लाइव वेबकैम',
+    upload_prompt: 'ब्राउज़ करने या छवि यहाँ छोड़ने के लिए क्लिक करें',
+    upload_hint: 'PNG, JPG, JPEG, WebP समर्थित — सर्किट बोर्ड, बैटरी, गैजेट्स',
+    upload_dragging: 'विश्लेषण के लिए छवि छोड़ें',
+    btn_analyze: 'छवि का विश्लेषण करें',
+    btn_analyzing: 'विश्लेषण हो रहा है...',
+    analyzing_text: 'छवि पर VLM अनुमान चल रहा है...',
+    no_ewaste_title: 'कोई ई-वेस्ट नहीं मिला',
+    no_ewaste_desc: 'सर्किट बोर्ड, बैटरी, या गैजेट्स की छवि अपलोड करने का प्रयास करें।',
+    camera_offline_title: 'कैमरा फ़ीड बंद है',
+    camera_offline_desc: 'कैमरा एक्सेस देने और लाइव छंटाई शुरू करने के लिए नीचे क्लिक करें',
+    btn_start_stream: 'लाइव स्ट्रीम शुरू करें',
+    btn_stop_stream: 'लाइव स्ट्रीम रोकें',
+    stream_active: 'लाइव स्ट्रीम सक्रिय',
+    stream_idle: 'स्ट्रीम निष्क्रिय',
+    stream_started: 'लाइव स्ट्रीम शुरू हुई',
+    stream_stopped: 'लाइव स्ट्रीम रुकी',
+    camera_failed: 'वेबकैम एक्सेस विफल',
+    capturing_every: 'हर',
+    active_detections: 'सक्रिय पहचान',
+    remove_image: 'छवि हटाएँ',
+
+    // Inventory tab
+    inventory_title: 'इन्वेंटरी लॉजिस्टिक्स',
+    inventory_subtitle: 'प्रत्येक पहचाने गए और रूट किए गए घटक की वास्तविक समय ट्रैकिंग।',
+    total_parts_tracked: 'कुल ट्रैक किए गए भाग',
+    unique_categories: 'अद्वितीय श्रेणियाँ',
+    component_registry: 'घटक रजिस्ट्री',
+    no_items_evaluated: 'अभी तक कोई आइटम मूल्यांकन नहीं हुआ',
+    avg_conf: 'औसत विश्वास',
+    bin_distribution: 'छंटाई बिन वितरण',
+    sort_event_log: 'छंटाई घटना लॉग',
+    clear: 'साफ़ करें',
+    no_sort_events: 'अभी तक कोई छंटाई घटना नहीं',
+    inventory_cleared: 'इन्वेंटरी साफ़ की गई',
+
+    // Robotic arm
+    robotic_sorter: 'रोबोटिक छंटाई नियंत्रण',
+    sorting: 'छंटाई',
+    idle: 'निष्क्रिय',
+    servo_angle: 'सर्वो कोण',
+    queue: 'कतार',
+    current_bin: 'वर्तमान बिन',
+    inference: 'अनुमान',
+    bin_routing: 'बिन रूटिंग',
+    routing: 'रूटिंग',
+
+    // Material composition
+    material_composition: 'अनुमानित सामग्री संरचना',
+
+    // Account tab
+    account_title: 'खाता',
+    account_subtitle: 'सत्रों में अपना छंटाई इतिहास सहेजने के लिए साइन इन करें।',
+    signed_in_as: 'इस रूप में साइन इन',
+    welcome_back: 'वापसी पर स्वागत है',
+    logout: 'साइन आउट',
+    login_title: 'सर्किटसॉर्ट में साइन इन करें',
+    login_subtitle: 'डैशबोर्ड देखने के लिए नीचे दिए गए डेमो क्रेडेंशियल का उपयोग करें।',
+    email: 'ईमेल',
+    password: 'पासवर्ड',
+    btn_sign_in: 'साइन इन करें',
+    signing_in: 'साइन इन हो रहा है...',
+    demo_credentials: 'डेमो क्रेडेंशियल',
+    demo_email: 'demo@circuitsort.app',
+    demo_password: 'circuitsort1234',
+    login_success: 'सफलतापूर्वक साइन इन हुआ',
+    login_error: 'गलत ईमेल या पासवर्ड',
+    logout_success: 'साइन आउट हुआ',
+    copy_to_clipboard: 'कॉपी करने के लिए क्लिक करें',
+    copied: 'कॉपी हो गया!',
+    not_signed_in_desc: 'आप अतिथि मोड में डेमो देख रहे हैं। छंटाई इतिहास सहेजने के लिए साइन इन करें।',
+    features_coming_soon: 'प्रीमियम सुविधाएँ',
+    feature_history: 'स्थायी छंटाई इतिहास',
+    feature_analytics: 'उन्नत एनालिटिक्स डैशबोर्ड',
+    feature_export: 'CSV / एक्सेल निर्यात',
+    feature_multiuser: 'बहु-उपयोगकर्ता टीम समर्थन',
+    coming_soon_badge: 'जल्द आ रहा है',
+
+    // Bins
+    bin_1: 'बिन 1 — कैपेसिटर',
+    bin_2: 'बिन 2 — रेजिस्टर / कनेक्टर',
+    bin_3: 'बिन 3 — पीसीबी / ट्रांसफार्मर',
+    bin_4: 'बिन 4 — बैटरी (खतरनाक)',
+    bin_5: 'बिन 5 — थोक गैजेट / केबल',
+    bin_6: 'बिन 6 — आईसी / हीट सिंक',
+
+    // Footer
+    footer_session: 'इस सत्र में छंटाई किए गए आइटम',
+    footer_upload_mode: 'अपलोड मोड',
+    footer_stream_active: 'लाइव स्ट्रीम सक्रिय',
+    footer_webcam_idle: 'वेबकैम निष्क्रिय',
+    footer_avg_confidence: 'औसत विश्वास',
+    footer_built_by: 'पोर्टफोलियो परियोजना के रूप में बनाया गया',
+  },
+} as const;
+
+export type TranslationKey = keyof typeof translations.en;
+
+export function getT(lang: Language) {
+  return (key: TranslationKey): string => translations[lang][key] ?? translations.en[key] ?? key;
+}

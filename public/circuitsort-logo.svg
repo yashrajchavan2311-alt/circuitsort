@@ -1,0 +1,45 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="CircuitSort logo">
+  <!-- CircuitSort logo: circuit board traces routing into 3 sorting bins -->
+
+  <!-- Background rounded square (chip-like) -->
+  <rect x="6" y="6" width="52" height="52" rx="10" fill="url(#csGradFill)" stroke="url(#csGrad)" stroke-width="2"/>
+
+  <!-- Circuit traces routing from top to bottom bins -->
+  <!-- Left trace — goes to left bin -->
+  <path d="M 18 14 L 18 24 L 14 28 L 14 44" stroke="url(#csGrad)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Center trace — goes to center bin -->
+  <path d="M 32 14 L 32 44" stroke="url(#csGrad)" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+  <!-- Right trace — goes to right bin -->
+  <path d="M 46 14 L 46 24 L 50 28 L 50 44" stroke="url(#csGrad)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Circuit nodes (solder points) at trace starts -->
+  <circle cx="18" cy="14" r="2.5" fill="url(#csGrad)"/>
+  <circle cx="32" cy="14" r="2.5" fill="url(#csGrad)"/>
+  <circle cx="46" cy="14" r="2.5" fill="url(#csGrad)"/>
+
+  <!-- Junction nodes (where traces branch) -->
+  <circle cx="14" cy="28" r="1.8" fill="url(#csGrad)" opacity="0.7"/>
+  <circle cx="50" cy="28" r="1.8" fill="url(#csGrad)" opacity="0.7"/>
+
+  <!-- Three sorting bins at bottom (the "sort" motif) -->
+  <!-- Left bin -->
+  <rect x="9" y="44" width="12" height="10" rx="1.5" fill="url(#csGrad)" opacity="0.9"/>
+  <!-- Center bin (highlighted as the "active" one) -->
+  <rect x="26" y="44" width="12" height="10" rx="1.5" fill="url(#csGrad)"/>
+  <!-- Right bin -->
+  <rect x="43" y="44" width="12" height="10" rx="1.5" fill="url(#csGrad)" opacity="0.9"/>
+
+  <!-- Small chip notch (top-left corner detail — IC package style) -->
+  <path d="M 10 6 L 14 6 L 14 10" stroke="url(#csGrad)" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+
+  <defs>
+    <linearGradient id="csGrad" x1="6" y1="6" x2="58" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10b981"/>
+      <stop offset="1" stop-color="#0d9488"/>
+    </linearGradient>
+    <linearGradient id="csGradFill" x1="6" y1="6" x2="58" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10b981" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#0d9488" stop-opacity="0.12"/>
+    </linearGradient>
+  </defs>
+</svg>

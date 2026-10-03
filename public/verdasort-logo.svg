@@ -1,0 +1,27 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="VerdaSort logo">
+  <!-- Outer ring — recycle motif, three curved arrows forming a triangle -->
+  <g stroke="url(#verdaGrad)" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Arrow 1: top -->
+    <path d="M 32 8 L 24 22 L 40 22" />
+    <!-- Arrow 2: bottom-right -->
+    <path d="M 52 38 L 44 50 L 36 36" />
+    <!-- Arrow 3: bottom-left -->
+    <path d="M 12 38 L 20 50 L 28 36" />
+  </g>
+  <!-- Leaf motif at center — eco symbol -->
+  <path d="M 32 24 C 26 24 22 28 22 34 C 22 40 26 44 32 44 C 38 44 42 40 42 34 C 42 28 38 24 32 24 Z M 32 24 L 32 44 M 32 34 L 38 30 M 32 38 L 26 34" stroke="url(#verdaGrad2)" stroke-width="2.2" stroke-linecap="round" fill="none" />
+  <!-- Circuit nodes — electronic theme -->
+  <circle cx="32" cy="8" r="2.5" fill="url(#verdaGrad)" />
+  <circle cx="52" cy="38" r="2.5" fill="url(#verdaGrad)" />
+  <circle cx="12" cy="38" r="2.5" fill="url(#verdaGrad)" />
+  <defs>
+    <linearGradient id="verdaGrad" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10b981" />
+      <stop offset="1" stop-color="#0d9488" />
+    </linearGradient>
+    <linearGradient id="verdaGrad2" x1="22" y1="24" x2="42" y2="44" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#14b8a6" />
+      <stop offset="1" stop-color="#059669" />
+    </linearGradient>
+  </defs>
+</svg>
